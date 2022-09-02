@@ -16,13 +16,13 @@ const NestedTable = ({ data }) => {
     console.log(">>>>", d);
     const nestedColumns = [
       {
-        title: "Item_Id",
+        title: "Item Id",
         dataIndex: "Item_Id",
         key: "Item_Id",
         render: (d) => d || "N/A",
       },
       {
-        title: "Item_code",
+        title: "Item Code",
         dataIndex: "Item_code",
         key: "Item_code",
         render: (d) => d || "N/A",
@@ -41,7 +41,7 @@ const NestedTable = ({ data }) => {
         render: (d) => d || "N/A",
       },
       {
-        title: "Unit_Price",
+        title: "Unit Price",
         dataIndex: "Unit_Price",
         key: "Unit_Price",
         render: (d) => d || "N/A",
@@ -67,7 +67,7 @@ const NestedTable = ({ data }) => {
 
   const columns = [
     {
-      title: "Source_Vendor",
+      title: "Source Vendor",
       dataIndex: "Source_Vendor",
       key: "Source_Vendor",
       width: "30%",
@@ -83,31 +83,31 @@ const NestedTable = ({ data }) => {
       render: (d) => d || "N/A",
     },
     {
-      title: "Invoice_Id",
+      title: "Invoice Id",
       dataIndex: "Invoice_Id",
       key: "Invoice_Id",
       render: (d) => d || "N/A",
     },
     {
-      title: "Invoice_Date",
+      title: "Invoice Date",
       dataIndex: "Invoice_Date",
       key: "Invoice_Date",
       render: (text) => new Date(text).toDateString(),
     },
     {
-      title: "Due_Date",
+      title: "Due Date",
       dataIndex: "Due_Date",
       key: "Due_Date",
       render: (text) => new Date(text).toDateString(),
     },
     {
-      title: "Customer_Id",
+      title: "Customer Id",
       dataIndex: "Customer_Id",
       key: "Customer_Id",
       render: (d) => d || "N/A",
     },
     {
-      title: "Invoice_Amount",
+      title: "Invoice Amount",
       dataIndex: "Invoice_Amount",
       key: "Invoice_Amount",
       render: (d) => d || "N/A",
